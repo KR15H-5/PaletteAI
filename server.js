@@ -6,7 +6,6 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors());
@@ -52,6 +51,6 @@ app.post('/api/extract-colors', async (req, res) => {
 });
 
 // Start the server
-app.listen(5001, () => {
-  console.log('Server is running on port 5001');
+app.listen(process.env.PORT, () => {
+  console.log('Server is running');
 });
