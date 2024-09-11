@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.17.2",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "jimp": "^1.6.0",
+    "mongoose": "^8.6.1",
+    "node-vibrant": "^3.2.1-alpha.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "graphicdesignai",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
